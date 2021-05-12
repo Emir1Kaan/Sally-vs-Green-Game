@@ -8,7 +8,7 @@
 
 - An "engine" file made by me with using JavaScript.
 - A "game" file made by me with using JavaScript.
-- Two characters and their assets made by me. Sally and Green (But Green named as "player" in files.)
+- "Sally", "Green" and "Tile" objects' images are made by me.
 
 ## First things you should know
 
