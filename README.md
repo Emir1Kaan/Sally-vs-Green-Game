@@ -12,7 +12,7 @@
 
 ## First things you should know
 
-- I named Green as "Player" in png files.
+- I named Green as "Player" in png files and game file.
 - You should check your Num Lock before playing the game.
 - You can use Fullscreen while playing the game If you wish.
 - I put gamepad for playing on mobile or tablet but didn't test on those platforms enough.
