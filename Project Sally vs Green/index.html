@@ -1,0 +1,31 @@
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<head>
+		<script src="engine.js"></script>
+		<script src="game.js"></script>
+		<style>
+		body {margin: 0;}
+		#fullscreenDiv {position: absolute; right: 0; top: 0;background-color: rgba(0,0,0,0.65);width: 5vw; height: 5vw; font-size: 2vw; text-align: center;}
+		#gamepadDiv {position: fixed; visibility: hidden}
+		.gamepadButton {position: fixed;background-color: rgba(0,0,0,0.65);width: 10vw; height: 10vw; font-size: 4vw; text-align: center;}
+		#gamepadUp {right: 10vw; bottom: 20vw;}
+		#gamepadDown {right: 10vw; bottom: 0;}
+		#gamepadCenter {right: 10vw; bottom: 10vw; background-color: rgba(0,0,0,0.9);}
+		#gamepadLeft {right: 20vw; bottom: 10vw;}
+		#gamepadRight {right: 0; bottom: 10vw;}
+		</style>
+	</head>
+	<body oncontextmenu="return false;">
+		<div id="gameDiv">
+			<canvas id="drawCanvas"></canvas>
+			<div id="fullscreenDiv" onclick="view.switchFullscreen()">[<>]</div>
+			<div id="gamepadDiv">
+				<div id="gamepadUp" class="gamepadButton">&#x2191</div>
+				<div id="gamepadDown" class="gamepadButton">&#x2193</div>
+				<div id="gamepadCenter" class="gamepadButton"></div>
+				<div id="gamepadLeft" class="gamepadButton">&#x2190</div>
+				<div id="gamepadRight" class="gamepadButton">&#x2192</div>
+			</div>
+		</div>
+	</body>
+</html>
