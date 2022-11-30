@@ -1,6 +1,6 @@
 # Sally VS Green
 
-**_Its a 2D Platform game which you can play with your friend on the same computer._**
+**_Its a 2D Platform game which you can play with your friend on the same computer. Me and my friend, we made it._**
 
 ## What do we have here?
 
@@ -8,7 +8,7 @@
 
 - An "engine" file made by me with using JavaScript.
 - A "game" file made by me with using JavaScript.
-- "Sally", "Green" and "Tile" objects' images are made by me.
+- "Sally", "Green" and "Tile" objects' images are made by me and my friend.
 
 ## First things you should know
 
